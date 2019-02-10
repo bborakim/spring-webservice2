@@ -1,0 +1,19 @@
+POST http://localhost:9090/posts
+Content-Type: application/json
+
+{
+"title" : "테스트",
+"content" : "테스트 본문",
+"author" : "테스터"
+}
+
+###결과############
+#POST http://localhost:9090/posts
+#
+#HTTP/1.1 200
+#Content-Length: 0
+#Date: Sun, 10 Feb 2019 10:17:27 GMT
+#
+#<Response body is empty>
+#
+#Response code: 200; Time: 329ms; Content length: 0 bytes
